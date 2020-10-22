@@ -1,0 +1,10 @@
+Question 1
+
+Math.min() and Math.max() can be used to find the lowest or highest value in a list of arguments:Find lower or highest number inside of arrays:var num = new Array(10, 23, 5, 1);> console.log(Math.min(...num));< 1>console.log(Math.max(...num));< 23round and random:for (i = 20; i >= 0; i--){console.log(Math.round(Math.random()*10))} for (i = 20; i >= 0; i--){  console.log(  Math.round(Math.random()*10)  ) } 
+
+Question 2
+
+1: > 3* 5   < 152: >  "3" * "5"   <  153:> "three" * "five"   < NaN - can multiply strings.4: > 2 + " fish"  <  2 fish5: > "3" + "5"   < 356: > 1 + 1 + " dogs" < 2 dogs7: > "The result is " + 10 + 20   < The result is 30ha interesting I thought it will be - The result is 30 - but instead - The result is 1020.8: > "The result is " + 10 * 20   > The result is unexpected 2009: > "The result is " + 10 - 20    <  NaN10: > "The result is " + (10 – 20)     <  Uncaught SyntaxError: Invalid or unexpected token
+
+Question 3
+
