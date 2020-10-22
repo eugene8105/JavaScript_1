@@ -5,19 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Click Tracker</title>
-    <script>
-        var i = 0;
-        function buttonClick() {
-            document.getElementById('inc').value = ++i;
-        }
-
-        function showAlert() {
-            alert(i);
-        }
-    </script>
 </head>
 
 <body>
+    <script src="code.js"></script>
 
     <button onclick="buttonClick()">Count clickks</button>
     <input type="text" id="inc" value="0"></input>
