@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Order Handmade Soaps</h1>
+
+    <form>
+
+        <input type="checkbox" name="soap" id="soap-lavender" data-price="5.99">
+        <label for="soap-lavender">Lavender $5.99</label>
+
+        <br>
+
+        <input type="checkbox" name="soap" id="soap-citrus" data-price="4.99">
+        <label for="soap-citrus">Citrus $4.99</label>
+
+        <br>
+
+        <input type="checkbox" name="soap" id="soap-spring-rain" data-price="3.99">
+        <label for="soap-spring-rain">Spring rain $3.99</label>
+
+        <br>
+
+        <button>Order <span id="quantity"></span> Soaps Now!</button>
+
+
+    </form>
+
+    <table>
+
+        <tr>
+            <td>Subtotal</td>
+            <td id="soapOutput"></td>
+        </tr>
+
+        <tr>
+            <td>Shipping</td>
+            <td id="shippingOutput"></td>
+        </tr>
+
+        <tr>
+            <td>Order total</td>
+            <td id="totalOutput"></td>
+        </tr>
+
+    </table>
+
+    <script src="soaps.js"></script>
+</body>
+
+</html>
