@@ -1,0 +1,9 @@
+.output {
+    display: none;
+    padding-top: 15px;
+    font-size: larger;
+}
+
+body {
+    background-color: burlywood;
+}

@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Schedule</title>
+    <style>
+        body {
+            padding: 25px;
+            font-family: Verdana, Geneva, sans-serif;
+            background: darkturquoise;
+        }
+
+        h1 {
+            text-align: center;
+            color: antiquewhite;
+        }
+
+        table {
+            margin-top: 10px;
+            border: thin black solid;
+            width: 380px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: antiquewhite;
+        }
+
+        th {
+            font-weight: bold;
+            width: 50%;
+        }
+
+        fieldset {
+            width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: bisque;
+        }
+
+        legend {
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<fieldset>
+    <legend>Choose a day to view schedule</legend>
+    <p>
+        <label>
+            <input type="radio" name="days" value="monday" id="days_0">
+            Monday</label>
+        <br>
+        <label>
+            <input type="radio" name="days" value="tuesday" id="days_1">
+            Tuesday</label>
+        <br>
+        <label>
+            <input type="radio" name="days" value="wednesday" id="days_2">
+            Wednesday</label>
+        <br>
+        <label>
+            <input type="radio" name="days" value="thursday" id="days_3">
+            Thursday</label>
+        <br>
+        <label>
+            <input type="radio" name="days" value="friday" id="days_4">
+            Friday</label>
+        <br>
+        <label>
+            <input type="radio" name="days" value="saturday" id="days_5">
+            Saturday</label>
+        <br>
+        <label>
+            <input type="radio" name="days" value="sunday" id="days_6">
+            Sunday</label>
+        <br>
+    </p>
+</fieldset>
+<table>
+    <thead>
+    <tr>
+        <th>Event</th>
+        <th>Time</th>
+    </tr>
+    </thead>
+    <tbody id="schedule">
+    <tr>
+        <td>(None)</td>
+        <td>(None)</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<script>
+    $(init);
+
+    function showSchedule() {
+        if (this.checked) {
+            // Remove all children (all <tr>s) from <tbody>
+            $("#schedule").empty();
+
+            // Get value="..." attribute from radio button
+            var dayOfWeek = this.value;
+
+            /*
+                Add your switch statement here.
+
+                The variable to test is "dayOfWeek" (without the quotes)
+
+                It contains the "value" attribute of the selected radio button, e.g. "monday".
+
+                In case block, call the function "addToSchedule" (without the quotes), passing it the event's name and the event's time, separated by commas.
+
+                For example:
+
+                addToSchedule("Tae Kwon Do", "5:00 pm");
+            */
+
+        }
+    }
+
+    function init() {
+        // Change event handled for all radio buttons
+        $(":radio").change(showSchedule);
+    }
+
+    function addToSchedule(name, time) {
+        // Creates a table row with the variables "name" and "time" in <td> elements
+        $("#schedule").append($("<tr>").append($("<td>").text(name)).append($("<td>").text(time)));
+    }
+
+</script>
+
+</html>

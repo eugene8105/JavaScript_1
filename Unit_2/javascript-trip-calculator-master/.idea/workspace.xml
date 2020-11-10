@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81338887-0c99-471a-bc28-a017e0622d26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/tripCalc-popups.js" beforeDir="false" afterPath="$PROJECT_DIR$/tripCalc-popups.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jKb3QF01RiZ7X4KViVDhedleDU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/javapuppy/javascript" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81338887-0c99-471a-bc28-a017e0622d26" name="Default Changelist" comment="" />
+      <created>1603555532723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603555532723</updated>
+      <workItem from="1603555536449" duration="2897000" />
+      <workItem from="1603587172884" duration="303000" />
+      <workItem from="1603643546279" duration="7584000" />
+      <workItem from="1603732390156" duration="29000" />
+      <workItem from="1603732429034" duration="62000" />
+      <workItem from="1603738303870" duration="68000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added second Bootstrap example page">
+      <created>1603645742886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603645742886</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added BG color, removed step from inputs, added H1">
+      <created>1603647678841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603647678841</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added demo for trip calculator with popups">
+      <created>1603677056870</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603677056870</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Moved output statements to the end">
+      <created>1603738355293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603738355293</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added second Bootstrap example page" />
+    <MESSAGE value="Added BG color, removed step from inputs, added H1" />
+    <MESSAGE value="Added demo for trip calculator with popups" />
+    <MESSAGE value="Moved output statements to the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved output statements to the end" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="142" y="60" width="1178" height="759" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1603651887105">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="142" y="60" width="1178" height="759" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603651887105" />
+    <state x="3045" y="80" key="CommitChangelistDialog2" timestamp="1603738354403">
+      <screen x="3000" y="80" width="1920" height="1040" />
+    </state>
+    <state x="-1890" y="177" key="CommitChangelistDialog2/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603677056237" />
+    <state x="124" y="0" key="CommitChangelistDialog2/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603647678166" />
+    <state x="3045" y="80" key="CommitChangelistDialog2/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738354403" />
+    <state x="3590" y="181" key="FileChooserDialogImpl" timestamp="1603738535762">
+      <screen x="3000" y="80" width="1920" height="1040" />
+    </state>
+    <state x="3590" y="181" key="FileChooserDialogImpl/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738535762" />
+    <state x="3000" y="80" key="Vcs.Push.Dialog.v2" timestamp="1603738358531">
+      <screen x="3000" y="80" width="1920" height="1040" />
+    </state>
+    <state x="-1920" y="177" key="Vcs.Push.Dialog.v2/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603677059003" />
+    <state x="43" y="18" key="Vcs.Push.Dialog.v2/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603647680878" />
+    <state x="3000" y="80" key="Vcs.Push.Dialog.v2/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738358531" />
+    <state x="449" y="0" width="1051" height="960" key="find.popup" timestamp="1603645070657">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="449" y="0" width="1051" height="960" key="find.popup/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603645070657" />
+  </component>
+</project>

@@ -1,0 +1,24 @@
+body {
+  padding: 25px;
+  background-color: blanchedalmond;
+}
+
+.tab-pane {
+  padding: 10px;
+}
+#home {
+  background-color: red;
+}
+
+#shop {
+  background-color: green;
+}
+
+#contact {
+  background-color: blue;
+  color: aliceblue;
+}
+#practiceTab {
+  background-color: yellowgreen;
+  color: darkslateblue;
+}

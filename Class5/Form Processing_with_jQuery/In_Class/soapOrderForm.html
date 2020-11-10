@@ -1,56 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Handmade Soaps for Sale</title>
 </head>
 
 <body>
-    <h1>Order Handmade Soaps</h1>
+    <div class="container w-50">
+        <h1>Order Handmade Soaps</h1>
 
-    <form>
+        <form>
+            <input type="checkbox" name="soap" id="soap-lavender" value="Lavender" data-price="5.99">
+            <label for="soap-lavender">Lavender $5.99</label>
 
-        <input type="checkbox" name="soap" id="soap-lavender" data-price="5.99">
-        <label for="soap-lavender">Lavender $5.99</label>
+            <br>
 
-        <br>
+            <input type="checkbox" name="soap" id="soap-citrus" value="Citrus" data-price="4.99">
+            <label for="soap-citrus">Citrus $4.99</label>
 
-        <input type="checkbox" name="soap" id="soap-citrus" data-price="4.99">
-        <label for="soap-citrus">Citrus $4.99</label>
+            <br>
 
-        <br>
+            <input type="checkbox" name="soap" id="soap-spring-rain" value="Spring Rain" data-price="3.49"
+                data-discount="0.5">
+            <label for="soap-spring-rain">Spring Rain $3.49</label>
 
-        <input type="checkbox" name="soap" id="soap-spring-rain" data-price="3.99">
-        <label for="soap-spring-rain">Spring rain $3.99</label>
+            <br>
 
-        <br>
+            <input type="radio" name="shipping" id="shipping-fc" data-shipping-fee="12.99" checked="checked">
+            <label for="shipping-fc">First Class $12.99</label>
 
-        <button>Order <span id="quantity"></span> Soaps Now!</button>
+            <br>
 
+            <input type="radio" name="shipping" id="shipping-2d" data-shipping-fee="25.99">
+            <label for="shipping-2d">Second Day $25.99</label>
 
-    </form>
+            <br>
 
-    <table>
+            <input type="radio" name="shipping" id="shipping-on" data-shipping-fee="45">
+            <label for="shipping-on">Overnight $45.00</label>
 
-        <tr>
-            <td>Subtotal</td>
-            <td id="soapOutput"></td>
-        </tr>
+            <br>
 
-        <tr>
-            <td>Shipping</td>
-            <td id="shippingOutput"></td>
-        </tr>
+            <button>Order <span id="quantity"></span> Soaps Now!</button>
+        </form>
 
-        <tr>
-            <td>Order total</td>
-            <td id="totalOutput"></td>
-        </tr>
+        <table>
+            <tr>
+                <td>Soaps Ordered</td>
+                <td id="soaps"></td>
+            </tr>
+            <tr>
+                <td>Subtotal</td>
+                <td id="soapOutput"></td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td id="shippingOutput"></td>
+            </tr>
+            <tr>
+                <td>Order Total</td>
+                <td id="totalOutput"></td>
+            </tr>
+        </table>
 
-    </table>
-
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="soaps.js"></script>
 </body>
 
