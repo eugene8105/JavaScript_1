@@ -7,15 +7,26 @@ span.square {
 }
 
 span.square:hover, span.square *:hover {
-    cursor: pointer;
+    cursor: position;
+
 }
 
 .human-player {
+    /* display: none; */
     outline: 3px solid black;
     outline-offset: -3px;
 }
 
 .computer-player {
+    /* display: none; */
     outline: 3px solid white;
     outline-offset: -3px;
+}
+
+#cP {
+    display: none;
+}
+
+#hP {
+    display: none;
 }
