@@ -22,11 +22,3 @@ span.square:hover, span.square *:hover {
     outline: 3px solid white;
     outline-offset: -3px;
 }
-
-#cP {
-    display: none;
-}
-
-#hP {
-    display: none;
-}
