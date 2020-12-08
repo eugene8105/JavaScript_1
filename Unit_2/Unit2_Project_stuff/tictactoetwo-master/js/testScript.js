@@ -49,19 +49,11 @@ $(document).ready(function () {
             hPlayer[hCount] = assignHuman(chosenRow, chosenCol);
 
             hCount++;
-            // Remove its text
-            // chosenSquare.empty();
-
-            // let the computer have a turn
+            checkWinner();
             if(hCount !== 5) {
                 computerPlayerTurn();
             }
         }
-
-        // Ask jQuery to find all the free squares
-        // var freeSquares = $(".square").not(".human-player").not(".computer-player");
-
-        // Any free squares left?
 
         if (hCount === 5) {
             console.log("It's a tie!");
@@ -72,13 +64,6 @@ $(document).ready(function () {
             // chosenSquare.empty();
             resetGame();
         }
-
-        // if (freeSquares.length === 0) {
-        //     console.log("It's a tie!");
-        //     var tieMessage = "<h1>It's a tie</h1>";
-
-        //     $(".container").append(tieMessage);
-        // }
     }
     function computerPlayerTurn() {
         var squareOccupied = false;
@@ -206,7 +191,7 @@ $(document).ready(function () {
         cCount = 0;
 
         win;
-        // $(".container").html("");
+        $(".container").html("");
     }
 
 });
