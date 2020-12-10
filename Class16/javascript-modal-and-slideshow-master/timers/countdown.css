@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-color: crimson;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+.bang {
+    font-size: 100px;
+    color: orange;
+}
+
+.fizzle {
+    font-size: 20px;
+    color: blue;
+}
+
+div {
+    padding: 5px;
+}
+
+#clock {
+    margin: 0 auto;
+    background-color: #eee;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#wrapper {
+    border: 2px black dotted;
+    background-color: #ccc;
+    width: 500px;
+    margin: 25px auto;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#result {
+    margin: 0 auto;
+    text-align: center;
+}

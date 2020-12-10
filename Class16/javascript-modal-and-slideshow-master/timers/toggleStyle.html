@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change Text Style</title>
+    <style>
+        .plain {
+            font-family: "Times New Roman";
+            color: black;
+            background-color: white;
+            font-size: medium;
+            text-shadow: none;
+        }
+
+        .fancy {
+            font-family: cursive;
+            color: pink;
+            background-color: darkolivegreen;
+            font-size: xx-large;
+            text-shadow: darkgrey 3px 3px 3px;
+        }
+
+        .boss {
+            font-family: Impact, sans-serif;
+            color: crimson;
+            background-color: yellow;
+            font-size: 64px;
+        }
+    </style>
+</head>
+<body>
+    <button id="startButton">Change Style</button>
+    <button id="stopButton">Stop Already!</button>
+
+    <br/>
+
+    <p class="plain">This is some plain text</p>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+    var theIntervalId;
+
+    function finalBossStyle() {
+        $("p").removeClass("plain fancy").addClass("boss");
+    }
+
+    function toggleStyle() {
+        $("p").toggleClass("plain fancy");
+    }
+
+    function startToggling() {
+        theIntervalId = setInterval(toggleStyle, 500);
+    }
+
+    function stopToggling() {
+        clearInterval(theIntervalId);
+        setTimeout(finalBossStyle, 3500);
+    }
+
+    function init() {
+        $("#startButton").click(startToggling);
+        $("#stopButton").click(stopToggling);
+    }
+
+    $(init);
+</script>
+</html>
